@@ -1,6 +1,6 @@
 {
   "name": "touch-react-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make React Component",
   "main": "src/index.js",
   "scripts": {
@@ -27,7 +27,6 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "chalk": "4.1.0",
     "command-line-args": "5.1.1"
   }
 }

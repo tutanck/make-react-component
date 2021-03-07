@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-npm install -g @tutanck/touch-react-component
+npm i -g touch-react-component
 ```
 
 ## Usage

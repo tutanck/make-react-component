@@ -1,4 +1,3 @@
-const chalk = require("chalk");
 const commandLineArgs = require("command-line-args");
 const Component = require("./templates/Component");
 const { touch } = require("./lib");
@@ -22,7 +21,7 @@ const options = commandLineArgs(optionDefinitions);
 const { name, dir, hydrated, verbose } = options;
 
 if (verbose) {
-  console.log(chalk.blue("info:"), "options=", options);
+  console.log("info:", "options=", options);
 }
 
 if (hydrated) {

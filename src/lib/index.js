@@ -1,15 +1,14 @@
-const chalk = require("chalk");
 const { getPath, createFile } = require("./utils/fspath");
 const { getJSFilename, getExtendedJSFilename } = require("./utils/filename");
 
 const touch = async (name, Template, dir, { ext = null, verbose = false }) => {
   if (!name) {
-    console.log(chalk.red("error:"), `'${name}' is not a valid name`);
+    console.log("error:", `'${name}' is not a valid name`);
     return;
   }
 
   if (!Template) {
-    console.log(chalk.red("error:"), `'Template' must be provided`);
+    console.log("error:", `'Template' must be provided`);
     return;
   }
 
@@ -22,8 +21,8 @@ const touch = async (name, Template, dir, { ext = null, verbose = false }) => {
   const dirname = getPath(cwd, _dir);
 
   if (verbose) {
-    console.log(chalk.blue("info:"), "cwd=", cwd);
-    console.log(chalk.blue("info:"), "dirname=", dirname);
+    console.log("info:", "cwd=", cwd);
+    console.log("info:", "dirname=", dirname);
   }
 
   const filename = ext ? getExtendedJSFilename(name, ext) : getJSFilename(name);
@@ -31,7 +30,7 @@ const touch = async (name, Template, dir, { ext = null, verbose = false }) => {
   try {
     createFile(dirname, filename, Template(name));
   } catch (error) {
-    console.log(chalk.red("error:"), `${error}`);
+    console.log("error:", `${error}`);
     return;
   }
 };
