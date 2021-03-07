@@ -1,0 +1,33 @@
+{
+  "name": "make-react-component",
+  "version": "0.0.1",
+  "description": "Make React Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mk": "./index.js"
+  },
+  "preferGlobal": true,
+  "author": "tutanck",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tutanck/make-react-component"
+  },
+  "contributors": [
+    "tutanck <tutanck@gmail.com>"
+  ],
+  "keywords": [
+    "react",
+    "make",
+    "component",
+    "template",
+    "make-react-component"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "command-line-args": "5.1.1"
+  }
+}
