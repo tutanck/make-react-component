@@ -1,7 +1,7 @@
 <h1 align="center">Make React Component</h1>
 <p>
-  <a href="https://www.npmjs.com/package/make-react-component" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/make-react-component.svg">
+  <a href="https://www.npmjs.com/package/touch-react-component" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/touch-react-component.svg">
   </a>
   <a href="https://twitter.com/tutanck" target="_blank">
     <img alt="Twitter: tutanck" src="https://img.shields.io/twitter/follow/tutanck.svg?style=social" />
@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-npm install -g @tutanck/make-react-component
+npm install -g @tutanck/touch-react-component
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ mk Button -h -d buttons
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/tutanck/make-react-component/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/tutanck/touch-react-component/issues).
 
 ## Show your support
 
@@ -45,7 +45,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [tutanck](https://github.com/tutanck).<br />
-This project is [ISC](https://github.com/tutanck/make-react-component/blob/master/LICENSE) licensed.
+This project is [ISC](https://github.com/tutanck/touch-react-component/blob/master/LICENSE) licensed.
 
 ---
 

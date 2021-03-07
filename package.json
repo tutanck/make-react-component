@@ -1,5 +1,5 @@
 {
-  "name": "make-react-component",
+  "name": "touch-react-component",
   "version": "0.0.1",
   "description": "Make React Component",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "author": "tutanck",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tutanck/make-react-component"
+    "url": "https://github.com/tutanck/touch-react-component"
   },
   "contributors": [
     "tutanck <tutanck@gmail.com>"
@@ -23,7 +23,7 @@
     "make",
     "component",
     "template",
-    "make-react-component"
+    "touch-react-component"
   ],
   "license": "ISC",
   "dependencies": {
